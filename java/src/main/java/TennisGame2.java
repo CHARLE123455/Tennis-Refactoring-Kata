@@ -1,6 +1,5 @@
 public class TennisGame2 implements TennisGame
 {
-
     //initialize players and player scores
     public int player1Score = 0;
     public int player2Score = 0;
@@ -72,7 +71,7 @@ private String leadingPlayer() {
 // Solid Principles Notes.......
 
 // Single Responsibility Principle
-// The TennisGame2 class has a single responsibility: to manage the score of a tennis game.This makes it easy to modify or extend the class without affecting other parts of the program.
+// The TennisGame2 class has a single responsibility,which is to manage the score of a tennis game.This makes it easy to modify or extend the class without affecting other parts of the program.
 
 // Open/Closed principle
 // You can create new classes that implement the TennisGame interface to add new features or change the behavior of the game without modifying the TennisGame2 class.
